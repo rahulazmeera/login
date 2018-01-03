@@ -1,0 +1,25 @@
+
+
+
+  
+  <div class="headline">
+   <h1>start here</h1>
+  </div>
+
+<div class="boxes">
+   <input type="text" [(ngModel)] = "data.username" id="username" placeholder="Username" > 
+    
+   <input type="text" [(ngModel)] = "data.password" id="password" placeholder="Password" >
+   <button  (click) ="submit()"  >submit</button>
+   <button (click)="clear()" >clear</button>
+</div>
+
+<div>
+  <!--  get the result data    --> 
+  <h1>{{this.submittedText}}</h1>
+
+</div>
+
+
+
+
